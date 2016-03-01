@@ -63,15 +63,21 @@ Theta2_grad = zeros(size(Theta2));
 %
 X = [ones(m,1) X];
 %	computing a2
-a2 = sigmoid(X*Theta1');
-%	Adding zeroes to a2
 
+%	Adding zeroes to z2
+
+a2 = sigmoid(X*Theta1');
 a2 = [ones(m,1) a2];
+
+
+
 
 h = sigmoid(a2*Theta2');
 
-%[a,p] = max (h,[],2);
+%[dummy, p] = max(h, [], 2);
 y_temp = zeros(m,num_labels);
+
+
 % changing y to binary matrix
 for iter = 1:m
 	y_temp(iter,y(iter)) = 1;
@@ -79,23 +85,47 @@ end
 
 
 J = (1/m)*sum(sum(-y_temp.*log((h))-(1.-y_temp).*log((1.-h))));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+J = (1/m)*sum(sum(-y_temp.*log((h))-(1.-y_temp).*log((1.-h))))+(lambda/(2*m))*(sum(sum(Theta1(:,2:end).^2))+sum(sum(Theta2(:,2:end).^2)));
 
 % -------------------------------------------------------------
+%	Computing Gradient Using Backpropagation;
+DEL_1 = zeros(size(Theta1));
+DEL_2 = zeros(size(Theta2));
+for t=1:m
+	a_1 = X(t,:);
+	z_2 = X*Theta1';
+	z_2 = [ones(m,1) z_2];
+	a_2 = sigmoidGradient(z_2);
+	
+	z_3 = a_2*Theta2';
+	h = sigmoid(z_3);
+	
+	del_3 = h-y(t);
+	del_2 = del_3*Theta2.*sigmoidGradient(z_2);
+	
+	
+	DEL_1 = DEL_1 + del_2(2:end)'*a_1;
+	DEL_2 = DEL_2 + del_3'*a_2;
+end
+
+
+	
+	Theta1_grad = DEL_1/m;
+	Theta2_grad = DEL_2/m;
+
+
+	
+	
+	 
+	
+	
+	
+
+
+
+
+
+
 
 % =========================================================================
 
