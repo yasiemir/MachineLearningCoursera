@@ -1,0 +1,572 @@
+
+Delivered-To: mir.yasir1026@gmail.com
+Received: by 10.36.16.14 with SMTP id 14csp120573ity;
+Fri, 25 Mar 2016 05:03:11 -0700 (PDT)
+X-Received: by 10.66.55.6 with SMTP id n6mr20784654pap.35.1458907391028;
+Fri, 25 Mar 2016 05:03:11 -0700 (PDT)
+Return-Path: <20160325120308876a3371c62746489265d1976f50p0eu@bounces.amazon.in>
+Received: from lux.smtp-out.eu-west-1.amazonses.com (lux.smtp-out.eu-west-1.amazonses.com. [176.32.127.207])
+by mx.google.com with ESMTPS id py15si1384854pab.168.2016.03.25.05.03.10
+for <mir.yasir1026@gmail.com>
+(version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+Fri, 25 Mar 2016 05:03:11 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 20160325120308876a3371c62746489265d1976f50p0eu@bounces.amazon.in designates 176.32.127.207 as permitted sender) client-ip=176.32.127.207;
+Authentication-Results: mx.google.com;
+dkim=pass header.i=@amazon.in;
+dkim=pass header.i=@amazonses.com;
+spf=pass (google.com: domain of 20160325120308876a3371c62746489265d1976f50p0eu@bounces.amazon.in designates 176.32.127.207 as permitted sender) smtp.mailfrom=20160325120308876a3371c62746489265d1976f50p0eu@bounces.amazon.in;
+dmarc=pass (p=QUARANTINE dis=NONE) header.from=amazon.in
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+s=2masotbytil2elqulldwr2i24nifintx; d=amazon.in; t=1458907389;
+h=From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:Date;
+bh=JReCHA3r1cwfloXng4h+dV8OJgcPmlun4PW8lRG1Cxc=;
+b=H4n48u3keeCJ4y58aVQACde04maQDKA9XYhPZtBFWdrhFYZo32SnVoQhXcWwUQVd
+vrKtCrgXmoC+z+3ezeZF3lD7SmWEckzI66xFYmEkqiBqTIm7e2rUIC3xJFz3jkFoI1d
+SvnAM8gvMtHRD+LTTz2WcRrq5aDMCEBHFlkD5tf8=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+s=ihchhvubuqgjsxyuhssfvqohv7z3u4hn; d=amazonses.com; t=1458907389;
+h=From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:Date:Feedback-ID;
+bh=JReCHA3r1cwfloXng4h+dV8OJgcPmlun4PW8lRG1Cxc=;
+b=GkgHhHEhXUAoWQWlkxNSS03DwXYqosDMWnrnVh/cIvgLc+uMSsvIhlj+cpJ5PGJe
+2I6+l8ouT3UnT+/NOhzKkK0ot8ouh+4ckR99CD/ExGA8oaOO5jZ7jNGyu8njsP7SSpc
+gAARshPXOuWqWVgSEzYDivamf7Kla3Y9dh/eicAA=
+From: "Amazon.in" <ship-confirm@amazon.in>
+Reply-To: ship-confirm@amazon.in
+To: mir.yasir1026@gmail.com
+Message-ID: <01020153ada81caa-71056c85-6529-45ad-955f-4595b81232f2-000000@eu-west-1.amazonses.com>
+Subject: Your Amazon.in order (#403-9679053-6612341) of "Noctua NT-H1
+Thermal Compound" has been dispatched!
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+boundary="----=_Part_194428_403007531.1458907389069"
+X-AMAZON-MAIL-RELAY-TYPE: notification
+Bounces-to: 20160325120308876a3371c62746489265d1976f50p0eu@bounces.amazon.in
+X-AMAZON-METADATA: CA=C15HCFS5SEQ4QE-CU=A1XJ3CEMJD09ZD-RI=A1IKZXHKZXK3UA
+X-Original-MessageID: <urn.rtn.msg.20160325120308876a3371c62746489265d1976f50p0eu@1458907389070.rtn-svc-eu-2b-i-d536866c.eu-west-1.amazon.com>
+Date: Fri, 25 Mar 2016 12:03:09 +0000
+X-SES-Outgoing: 2016.03.25-10.42.214.30
+Feedback-ID: 1.eu-west-1.KxLUKazDI5D9NzBxTS3SoD/MTlcLZY0yvg8x5uoOkSk=:AmazonSES
+
+------=_Part_194428_403007531.1458907389069
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Amazon.in Shipping Confirmation
+Order #403-9679053-6612341
+http://www.amazon.in/ref=pe_194751_29698841_tex_cs_sce_g/
+
+--------------------------------------------------------------------
+Hello Yasir Mir,
+
+We thought you'd like to know that we've dispatched your item(s). Your order is on the way.
+
+Your estimated delivery date is:
+Monday, March 28
+
+Track your package at https://www.amazon.in/gp/css/shiptrack/view.html/ref=pe_194751_29698841_tex_typ?ie=UTF8&addressID=jponpsnrokp&latestArrivalDate=1459175400&orderID=403-9679053-6612341&shipmentDate=1458907369&orderingShipmentId=1273287585056&packageId=1
+
+Your package was sent to:
+Yasir Mir
+room no 118 kellat boys hostel
+jamia millia islamia
+south delhi, DELHI 110025
+India
+
+Your package is being shipped by Amazon Transportation Services and the tracking number is 223107347094.
+
+Please note that a signature may be required for the delivery of the package.
+
+====================================================================
+
+Your Shipment Details
+
+Noctua NT-H1 Thermal Compound
+Sold by IT-MART
+Rs.499.00
+--------------------------------------------------------------------
+Item Subtotal: Rs.443.56
+Shipping and Handling: Rs.0.00
+Sales Tax Collected: Rs.55.44
+Shipment Total: Rs.499.00
+Cash Payment Pending: Rs.499.00
+
+
+====================================================================
+
+To view or manage your orders go to Your Orders:
+www.amazon.in/yourorders?ref_=pe_194751_29698841_tex_cs_sce_o/
+
+To return an order, visit our Returns Centre: http://www.amazon.in/gp/orc/returns/homepage.html/ref=pe_194751_29698841_tex_cs_sce_r/
+
+If you need further assistance with your order, please visit our Customer Service Help page: http://www.amazon.in/gp/help/customer/display.html/ref=pe_194751_29698841_tex_cs_sce_h/
+
+Thank you for shopping with us.
+Amazon.in
+www.amazon.in/ref=pe_194751_29698841_tex_cs_sce_g
+
+--------------------------------------------------------------------
+
+Please note: This e-mail was sent from a notification-only address
+that cannot accept incoming e-mail. Please do not reply to this message.
+------=_Part_194428_403007531.1458907389069
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>=20
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" =
+/>=20
+<title></title>=20
+<style type=3D"text/css">
+=09=09.topHeaderLinks a { text-decoration: none; color:#006699; font-family=
+:Arial, san-serif; }
+=20
+/* marketing content */
+#marketingContent {
+=09border-bottom:1px solid #eaeaea;
+=09border-collapse:collapse;
+=09padding:0;
+}
+
+#marketingContent td.recs {
+=09padding:10px 0;
+}
+
+#marketingContent td.right {
+=09padding:10px 0 10px 3px;
+}
+
+#marketingContent td.left {
+=09padding:10px 0 10px 0;
+}
+
+
+</style>=20
+</head>=20
+<body style=3D"margin:0;">=20
+<table width=3D"640" cellspacing=3D"0" style=3D"font:12px/16px Arial, san=
+s-serif; color:#333; background-color:#FFF; margin:0 auto;" cellpadding=3D"=
+0">=20
+<tbody>
+<tr>=20
+<td valign=3D"top" style=3D"padding:14px 0px 10px 20px; width:100px; b=
+order-collapse:collapse;"> <a href=3D"https://www.amazon.in/gp/r.html?C=3D2=
+TE5D996SRIC9&K=3DA1XJ3CEMJD09ZD&R=3D1RJYLE1Q16FIZ&T=3DC&U=3Dhttps%3A%2F%2Fw=
+ww.amazon.in%2Fref%3Dpe_386221_125400471_pe_194751_29698841_g_i&A=3DVXQQVUP=
+Q4LJ4DCCYPWDV6F6XJN0A&H=3DGJTVRCD2HWSZS0CHH3XWMNLAD6YA&ref_=3Dpe_386221_125=
+400471_pe_194751_29698841_g_i" title=3D"Visit Amazon.in"><img alt=3D"Amazon=
+" border=3D"0" id=3D"amazonLogo" src=3D"http://g-ec2.images-amazon.com/imag=
+es/G/31/x-locale/common/amazon-logo._V13" /></a> </td>=20
+<td style=3D"text-align:right; padding:0px 20px;">=20
+<table cellspacing=3D"0" style=3D"font:12px/16px Arial, sans-serif; c=
+olor:#333; margin:0 auto; border-collapse:collapse;" cellpadding=3D"0">=20
+<tbody>
+<tr>=20
+<td style=3D"border-bottom: 1px solid rgb(204, 204, 204); width: 4=
+90px; padding: 0px 0px 5px 0px;" class=3D"topHeaderLinks">=20
+<table align=3D"right" style=3D"border-collapse: collapse;" cells=
+pacing=3D"0">=20
+<tbody>=20
+<tr>=20
+<td style=3D"padding: 0px; vertical-align: bottom; font: 12px/=
+16px Arial, sans-serif;"> <a href=3D"https://www.amazon.in/gp/r.html?C=3D2=
+TE5D996SRIC9&K=3DA1XJ3CEMJD09ZD&R=3D1RJYLE1Q16FIZ&T=3DC&U=3Dhttps%3A%2F%2Fw=
+ww.amazon.in%2Fgp%2Fcss%2Fyour-orders-access%2Fref%3Dpe_386221_125400471_pe=
+_194751_29698841_oh_tn&A=3DN3SJY6QMPL4BU1C51FV8IAU0PH4A&H=3DA143ZTQXOPV4HOM=
+TZFGURSJRDASA&ref_=3Dpe_386221_125400471_pe_194751_29698841_oh_tn" style=3D=
+"text-decoration: none; color: rgb(0, 102, 153); font-family: Arial, san-se=
+rif">Your Orders</a> <span style=3D"text-decoration:none; color:#CCC; font:=
+15px Arial, san-serif;">&nbsp;|&nbsp;</span> </td>=20
+<td style=3D"padding: 0px; vertical-align: bottom; font: 12px/=
+16px Arial, sans-serif;"> <a href=3D"https://www.amazon.in/gp/r.html?C=3D2=
+TE5D996SRIC9&K=3DA1XJ3CEMJD09ZD&R=3D1RJYLE1Q16FIZ&T=3DC&U=3Dhttps%3A%2F%2Fw=
+ww.amazon.in%2Fgp%2Fcss%2Fyour-account-access%2Fref%3Dpe_386221_125400471_p=
+e_194751_29698841_ya_tn&A=3DPKJJN5UKQURDMAFG8PHFJKW1UWQA&H=3DHGZYB4O29CBQXY=
+M6LK9CZWZC0OGA&ref_=3Dpe_386221_125400471_pe_194751_29698841_ya_tn" style=
+=3D"text-decoration: none; color: rgb(0, 102, 153); font-family: Arial, san=
+-serif">Your Account</a> <span style=3D"text-decoration:none; color:#CCC; f=
+ont:15px Arial, san-serif;">&nbsp;|&nbsp;</span> </td>=20
+<td style=3D"padding: 0px; vertical-align: bottom; font: 12px/=
+16px Arial, sans-serif;"> <a href=3D"https://www.amazon.in/gp/r.html?C=3D2=
+TE5D996SRIC9&K=3DA1XJ3CEMJD09ZD&R=3D1RJYLE1Q16FIZ&T=3DC&U=3Dhttps%3A%2F%2Fw=
+ww.amazon.in%2F%3Fref_%3Dpe_386221_125400471_pe_194751_29698841_g_tn&A=3DQM=
+JGM6KCJLAIQ2QCVSEJQDXG6X8A&H=3DXLAG3FGVXWADJT7U75FOPGWPZDEA&ref_=3Dpe_38622=
+1_125400471_pe_194751_29698841_g_tn" style=3D"text-decoration: none; color:=
+rgb(0, 102, 153); font-family: Arial, san-serif">Amazon.in</a> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+<tr>=20
+<td style=3D"text-align:right; padding:7px 0px 0px 20px;width:490p=
+x;"> <span style=3D"font:20px Arial, san-serif;">Shipping Confirmation</spa=
+n> </td>=20
+</tr>=20
+<tr>=20
+<td style=3D"text-align:right; padding:0px 0px 5px 20px;width:490p=
+x;"> <span style=3D"font-size:12px;"> Order #<a href=3D"https://www.amazon.=
+in/gp/r.html?C=3D2TE5D996SRIC9&K=3DA1XJ3CEMJD09ZD&R=3D1RJYLE1Q16FIZ&T=3DC&U=
+=3Dhttps%3A%2F%2Fwww.amazon.in%2Fgp%2Fcss%2Fsummary%2Fedit.html%2Fref%3Dpe_=
+386221_125400471_pe_194751_29698841_od_tn%3Fie%3DUTF8%26orderID%3D403-96790=
+53-6612341&A=3DENXYNI5NBFSDLDVZ5UMO3CPOM9CA&H=3DGV0WK7B1BRBJTTQIG2OOQUBCQJ0=
+A&ref_=3Dpe_386221_125400471_pe_194751_29698841_od_tn" style=3D"text-decora=
+tion:none; color:#006699;">403-9679053-6612341</a> </span> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+<tr>=20
+<td colspan=3D"2" style=3D"width:640px;"> <p style=3D"font:18px Arial,=
+sans-serif; color:#cc6600; margin:15px 20px 0 20px;">Hello Yasir Mir,</p> =
+<p style=3D"margin:4px 20px 18px 20px; width:640px;"> We thought you'd like=
+to know that we've dispatched your item(s). Your order is on the way. If y=
+ou need to return an item from this shipment or manage other orders, please=
+visit <a href=3D"https://www.amazon.in/gp/r.html?C=3D2TE5D996SRIC9&K=3DA1X=
+J3CEMJD09ZD&R=3D1RJYLE1Q16FIZ&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.in%2Fgp%2F=
+css%2Fyour-orders-access%2Fref%3Dpe_386221_125400471_pe_194751_29698841_oh_=
+b&A=3DGAJI59EIF87UBXLMPE9GVLBELEGA&H=3DCC4TFCFLOHLBGTDIAACKWXAQ3SGA&ref_=3D=
+pe_386221_125400471_pe_194751_29698841_oh_b" style=3D"color:#006699;text-de=
+coration: none;">Your Orders</a> on Amazon.in. </p> </td>=20
+</tr>=20
+<tr>=20
+<td colspan=3D"2" style=3D"padding:0 20px;width:640px;">=20
+<table cellspacing=3D"0" style=3D"border-top:3px solid #2d3741;width:=
+640px;" cellpadding=3D"0">=20
+<tbody>
+<tr>=20
+<td valign=3D"top" style=3D"font:14px Arial, san-serif; padding:11=
+px 0 14px 18px;width:280px;background-color:#efefef;"> <span style=3D"color=
+:#666;">Arriving: </span> <br /> <p style=3D"margin:2px 0 9px 0;"> <strong =
+style=3D"color:#009900;">Monday, March 28</strong> </p> <a href=3D"https://=
+www.amazon.in/gp/r.html?C=3D2TE5D996SRIC9&K=3DA1XJ3CEMJD09ZD&R=3D1RJYLE1Q16=
+FIZ&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.in%2Fgp%2Fcss%2Fshiptrack%2Fview.htm=
+l%2Fref%3Dpe_386221_125400471_pe_194751_29698841_typ%3Fie%3DUTF8%26addressI=
+D%3Djponpsnrokp%26latestArrivalDate%3D1459175400%26orderID%3D403-9679053-66=
+12341%26shipmentDate%3D1458907369%26orderingShipmentId%3D1273287585056%26pa=
+ckageId%3D1&A=3DV0ID78LDFQKWKEWO4BKBWPNYIJWA&H=3DLLU0VRDDFKVMAE2EYANF6R2SDV=
+OA&ref_=3Dpe_386221_125400471_pe_194751_29698841_typ"> <img alt=3D"Track yo=
+ur package" border=3D"0" id=3D"trackYourPackage" src=3D"https://images-na.s=
+sl-images-amazon.com/images/G/01/x-locale/cs/te/button-track.png" /> </a> <=
+br /> <a href=3D"https://www.amazon.in/gp/r.html?C=3D2TE5D996SRIC9&K=3DA1XJ=
+3CEMJD09ZD&R=3D1RJYLE1Q16FIZ&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.in%2Fgp%2Fc=
+ss%2Forder%2Fstatic-display%2Fget-legal-invoice.html%3ForderId%3D403-967905=
+3-6612341%26ref_%3Dpe_386221_125400471_pe_194751_29698841_inv&A=3DKAFQZSAZG=
+QFGISC85KDD432BYYAA&H=3DSIKZ4YF6CZFXRJTOTXOX8FMXEDCA&ref_=3Dpe_386221_12540=
+0471_pe_194751_29698841_inv"> <img alt=3D"Rechnung drucken" id=3D"printInvo=
+iceButton" src=3D"http://g-ec2.images-amazon.com/images/G/01/print_invoice_=
+en._V331619170_.png" /> </a> </td>=20
+<td valign=3D"top" style=3D"font:14px Arial, san-serif; padding:11=
+px 18px 14px 18px;width:280px;background-color:#efefef;"><span style=3D"col=
+or:#666;">Your package was sent to:</span><br /> <p style=3D"margin:2px 0;"=
+> <strong> Yasir Mir <br /> room no 118 kellat boys hostel <br /> jamia mil=
+lia islamia <br />=20
+<nowrap>
+south delhi, DELHI 110025=20
+</nowrap> <br /> India </strong> </p> </td>=20
+</tr>=20
+<tr>=20
+<td colspan=3D"2" style=3D"font-size:10px; color:#666; padding:0 1=
+0px 20px 10px; line-height:16px;width:640px;"> <p style=3D"margin:10px 0 0 =
+0; font:11px/16px Arial, sans-serif;color:#333;"> Your package is being shi=
+pped by Amazon Transportation Services and the tracking number is 223107347=
+094. Please note that a signature may be required for the delivery of the p=
+ackage. </p> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+<tr>=20
+<td colspan=3D"2" style=3D"width:640px;"> <p style=3D"font:18px Arial,=
+sans-serif; color:#cc6600; border-bottom:1px solid #ccc; margin:0 20px 3px=
+20px; padding:0 0 3px 0;"> Shipment Details </p> </td>=20
+</tr>=20
+<tr>=20
+<td colspan=3D"2" style=3D"padding:16px 40px;width:640px;" id=3D"shipm=
+entDetails">=20
+<table width=3D"565" cellspacing=3D"0" cellpadding=3D"0">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"width:150px;height:11=
+5px;"> <a href=3D"https://www.amazon.in/gp/r.html?C=3D2TE5D996SRIC9&K=3DA1X=
+J3CEMJD09ZD&R=3D1RJYLE1Q16FIZ&T=3DC&U=3Dhttp%3A%2F%2Fwww.amazon.in%2Fdp%2FB=
+002CQU14A%2Fref%3Dpe_386221_125400471_pe_194751_29698841_dp_i1&A=3DRQ0WLATZ=
+IIWG7FWXY3FXOYGJU1SA&H=3DBFMGTVGWMOCYTKGB91BTPVHFT1WA&ref_=3Dpe_386221_1254=
+00471_pe_194751_29698841_dp_i1" style=3D"margin:0 20px 0 0;" title=3D"ItemI=
+mage"> <img border=3D"0" id=3D"asin" src=3D"https://images-na.ssl-images-am=
+azon.com/images/I/31+MLKxxrPL._SCLZZZZZZZ__SY115_SX115_.jpg" style=3D"margi=
+n:0 0 14px 0;" /> </a> </td>=20
+<td valign=3D"top" style=3D"color:#666; padding:10px 10px 0 10px;w=
+idth:330px;height:115px;"> <a href=3D"https://www.amazon.in/gp/r.html?C=3D2=
+TE5D996SRIC9&K=3DA1XJ3CEMJD09ZD&R=3D1RJYLE1Q16FIZ&T=3DC&U=3Dhttp%3A%2F%2Fww=
+w.amazon.in%2Fdp%2FB002CQU14A%2Fref%3Dpe_386221_125400471_pe_194751_2969884=
+1_dp_1&A=3DZWBGFYO5GQMROCAM8X40YHJ9YCGA&H=3DW1NFMYJ22DZIWQSWGYUTS1JFAHKA&re=
+f_=3Dpe_386221_125400471_pe_194751_29698841_dp_1" style=3D"font:14px Arial,=
+sans-serif; text-decoration:none; color:#006699;"> Noctua NT-H1 Thermal Co=
+mpound </a> <br /> <span style=3D"font:12px Arial, sans-serif;"> Sold by IT=
+-MART </span> </td>=20
+<td align=3D"right" valign=3D"top" style=3D"font:14px Arial, san-s=
+erif; padding:10px 0 0 0;width:85px;height:115px;"> <strong>Rs.499.00</stro=
+ng> </td>=20
+</tr>=20
+<tr>=20
+<td colspan=3D"3" style=3D"border-top: 1px solid rgb(234, 234, 234=
+); padding: 0pt 0pt 16px;width:560px;"> &nbsp; </td>=20
+</tr>=20
+<tr>=20
+<td colspan=3D"2" align=3D"right" valign=3D"top" style=3D"font:12p=
+x/18px Arial, sans-serif; padding:0 10px 0 0;color:#333;width:480px;"> Item=
+Subtotal: </td>=20
+<td align=3D"right" valign=3D"top" style=3D"font:12px/18px Arial, =
+sans-serif;color:#333;width:85px;"> Rs.443.56 </td>=20
+</tr>=20
+<tr>=20
+<td colspan=3D"2" align=3D"right" valign=3D"top" style=3D"font:12p=
+x/18px Arial, sans-serif; padding:0 10px 0 0;color:#333;width:480px;"> Ship=
+ping &amp; Handling: </td>=20
+<td align=3D"right" valign=3D"top" style=3D"font:12px/18px Arial, =
+sans-serif;color:#333;width:85px;"> Rs.0.00 </td>=20
+</tr>=20
+<tr>=20
+<td colspan=3D"2" align=3D"right" valign=3D"top" style=3D"font:12p=
+x/18px Arial, sans-serif;padding:10px 10px 0 0;color:#333;width:480px;"> To=
+tal Before Tax: </td>=20
+<td align=3D"right" valign=3D"top" style=3D"color:#333;font:12px/1=
+8px Arial, sans-serif;padding:10px 0 0 0;color:#333;width:85px;"> Rs.443.56=
+</td>=20
+</tr>=20
+<tr>=20
+<td colspan=3D"2" align=3D"right" valign=3D"top" style=3D"font:12p=
+x/18px Arial, sans-serif;padding:0 10px 0 0;color:#333;width:480px;"> Sales=
+Tax Collected: </td>=20
+<td align=3D"right" valign=3D"top" style=3D"color:#333;font:12px/1=
+8px Arial, sans-serif;color:#333;width:85px;"> Rs.55.44 </td>=20
+</tr>=20
+<tr>=20
+<td colspan=3D"2" align=3D"right" valign=3D"top" style=3D"font:14p=
+x Arial, sans-serif; padding:10px 10px 10px 0;color:#333;width:480px;"> Shi=
+pment Total: </td>=20
+<td align=3D"right" valign=3D"top" style=3D"color:#333;font:14px A=
+rial, sans-serif;padding:10px 0 5px 0;color:#333;width:85px;"> <strong> Rs.=
+499.00 </strong> </td>=20
+</tr>=20
+<tr>=20
+<td colspan=3D"2" align=3D"right" valign=3D"top" style=3D"font:12p=
+x/18px Arial, sans-serif;padding:0 10px 0 0;color:#333;width:480px;"> Cash =
+Payment Pending: </td>=20
+<td align=3D"right" valign=3D"top" style=3D"color:#333;font:12px/1=
+8px Arial, sans-serif;width:85px;"> Rs.499.00 </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+<tr>=20
+<td colspan=3D"2" style=3D"padding:0 20px; line-height:22px;width:640p=
+x;"> <p style=3D"border-top:1px solid #ccc; padding:20px 0 0 0;"> Track you=
+r order with the <a href=3D"https://www.amazon.in/gp/r.html?C=3D2TE5D996SRI=
+C9&K=3DA1XJ3CEMJD09ZD&R=3D1RJYLE1Q16FIZ&T=3DC&U=3Dhttp%3A%2F%2Fwww.amazon.i=
+n%2Fapp%3Fref_%3Dpe_386221_125400471_pe_194751_29698841_tex_cs_sce_ap%2F&A=
+=3DC2TEFDAZMHSL7S8PSGGGTAFZS6WA&H=3DHNFE7NV07MYRRWOEKUIBAAGNWRMA&ref_=3Dpe_=
+386221_125400471_pe_194751_29698841_tex_cs_sce_ap" style=3D"color:#006699;t=
+ext-decoration: none;">Amazon App</a>. <br /> Returns are easy. Visit our <=
+a href=3D"https://www.amazon.in/gp/r.html?C=3D2TE5D996SRIC9&K=3DA1XJ3CEMJD0=
+9ZD&R=3D1RJYLE1Q16FIZ&T=3DC&U=3Dhttp%3A%2F%2Fwww.amazon.in%2Fgp%2Fcss%2Fret=
+urns%2Fhomepage.html%2Fref%3Dpe_386221_125400471_pe_194751_29698841_r&A=3DV=
+5APNHOSQLXORAWTKAW46KFAFUWA&H=3DCP4SUKFQOMVMFW3EIUMF4C10AJYA&ref_=3Dpe_3862=
+21_125400471_pe_194751_29698841_r" style=3D"color:#006699;text-decoration: =
+none;">Returns Centre</a>. <br /> If you need further assistance with your =
+order, please visit <a href=3D"https://www.amazon.in/gp/r.html?C=3D2TE5D996=
+SRIC9&K=3DA1XJ3CEMJD09ZD&R=3D1RJYLE1Q16FIZ&T=3DC&U=3Dhttp%3A%2F%2Fwww.amazo=
+n.in%2Fgp%2Fhelp%2Fcustomer%2Fdisplay.html%2Fref%3Dpe_386221_125400471_pe_1=
+94751_29698841_cs%3Fie%3DUTF8%2526nodeId%3D518316&A=3D3VV2TDSRLT8136OUBSQYF=
+QJATUAA&H=3DDMLMXEF4HZJG7ZYALVXNLXGSQ2KA&ref_=3Dpe_386221_125400471_pe_1947=
+51_29698841_cs" style=3D"color:#006699;text-decoration: none;">Customer Ser=
+vice</a>. </p> </td>=20
+</tr>=20
+<tr>=20
+<td colspan=3D"2" style=3D"padding:0 20px 0 20px; line-height:22px;wid=
+th:640px;"> <p style=3D"margin:10px 0; padding:0 0 20px 0; border-bottom:1p=
+x solid #eaeaea;">We hope to see you again soon!<br /> <span style=3D"font:=
+14px Arial, san-serif;"> <strong>Amazon.in</strong> </span> </p> </td>=20
+</tr>=20
+<tr>=20
+<td colspan=3D"2" style=3D"padding:0 20px 0 20px;">=20
+<table id=3D"marketingContent" style=3D"border-bottom: 1px solid rgb(=
+234, 234, 234); border-collapse: collapse; padding: 0">=20
+<tbody>
+<tr>=20
+<td class=3D"recs" style=3D"padding: 10px 0">
+<table width=3D"640" cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0" align=3D"left" class=3D"deviceWidth" style=3D"vertical-align:central=
+;background:white;">
+<tbody>
+<tr>
+<td>=20
+<table width=3D"640" class=3D"deviceWidth" cellspacing=3D"0" =
+cellpadding=3D"0" align=3D"inherit" bgcolor=3D"#FFFFFF">=20
+<tbody>
+<tr>=20
+<td style=3D"font-family:Arial,Sans-Serif;font-size:18px;f=
+ont-weight:normal;font-style:normal;text-decoration:none;color:#C60;text-al=
+ign:left;padding:6px 0 5px 0;"> Customers Who Bought Items in Your Order Al=
+so Bought </td>=20
+</tr>=20
+</tbody>
+</table> </td>
+</tr>
+<tr>
+<td>=20
+<table width=3D"640" cellspacing=3D"0" cellpadding=3D"0" bord=
+er=3D"0" align=3D"left" class=3D"deviceWidth" style=3D"vertical-align:centr=
+al;background:white;">=20
+<tbody>
+<tr>=20
+<td width=3D"30%" bgcolor=3D"#ffffff" align=3D"left" class=
+=3D"asin_3col" style=3D"font-family:Arial,Sans-Serif; padding:6px 16px 0 6p=
+x; vertical-align:top; font-size:13px; line-height:18px;">=20
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0"=
+border=3D"0" bgcolor=3D"#ffffff">=20
+<tbody>
+<tr>=20
+<td valign=3D"bottom" align=3D"left" style=3D"vertical=
+-align: left; padding:4px 6px 4px 6px;"> <a href=3D"https://www.amazon.in/g=
+p/r.html?C=3D2TE5D996SRIC9&K=3DA1XJ3CEMJD09ZD&R=3D1RJYLE1Q16FIZ&T=3DC&U=3Dh=
+ttps%3A%2F%2Fwww.amazon.in%2Fgp%2Fproduct%2FB011R8J5D6%2Fref%3Dpe_386221_12=
+5400471_pd_te_s_gr_im%2F277-8041944-2349445&A=3DBNRZX9DQXJL1BCQ8QLGK716H51S=
+A&H=3DSWIA9CF1MRH3OQANJSHAQP934XKA&ref_=3Dpe_386221_125400471_pd_te_s_gr_im=
+"> <img src=3D"https://images-eu.ssl-images-amazon.com/images/I/41L0wLBmoEL=
+._AC_SL500_SS115_.jpg" width=3D"115" height=3D"115" class=3D"pr_image_115 p=
+r_image_desktop" alt=3D"QuantumZERO QZHB04 USB 3.0 3.5" front=3D"" panel=3D=
+"" usb=3D"" hub=3D"" with=3D"" 2=3D"" 3.0=3D"" ports=3D"" [20=3D"" pin=3D""=
+connector=3D"" &=3D"" 2ft=3D"" adapter=3D"" cable]"=3D"" border=3D"0" /> <=
+/a> </td>=20
+</tr>=20
+<tr align=3D"left" style=3D"padding:0; display:block; l=
+ine-height:16px">=20
+<td align=3D"left"> <span style=3D"font-family:Arial,S=
+ans-Serif; text-decoration:none; color:#888; font-size:13px; font: 13px Ari=
+al,Sans-Serif"> <a href=3D"https://www.amazon.in/gp/r.html?C=3D2TE5D996SRIC=
+9&K=3DA1XJ3CEMJD09ZD&R=3D1RJYLE1Q16FIZ&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.i=
+n%2Fgp%2Fproduct%2FB011R8J5D6%2Fref%3Dpe_386221_125400471_pd_te_s_gr_ti%2F2=
+77-8041944-2349445&A=3DIJZQ6AJAF0K848ZRDVF3CFAY3XSA&H=3DHFQ6KOWAKN52B3HXFQC=
+ULGAIHMWA&ref_=3Dpe_386221_125400471_pd_te_s_gr_ti" style=3D"font-family:Ar=
+ial,Sans-Serif; text-decoration:none; color:#888; font-size:13px; font: 13p=
+x Arial,Sans-Serif">QuantumZERO QZHB04 USB 3.0 3.5&quot; Front Panel USB...=
+</a> </span> </td>=20
+</tr>=20
+<tr align=3D"left" style=3D"padding:0; display:block; l=
+ine-height:16px" class=3D"pr_title">=20
+<td valign=3D"middle" align=3D"left"> <span style=3D"f=
+ont-family:Arial,Sans-Serif; text-decoration:none; color:#888; font-size:13=
+px; vertical-align:3px"> Rs. 545.00 </span> <span style=3D"vertical-align:0=
+px"></span> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+<td width=3D"30%" bgcolor=3D"#ffffff" align=3D"left" class=
+=3D"asin_3col" style=3D"font-family:Arial,Sans-Serif; padding:6px 16px 0 6p=
+x; vertical-align:top; font-size:13px; line-height:18px;">=20
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0"=
+border=3D"0" bgcolor=3D"#ffffff">=20
+<tbody>
+<tr>=20
+<td valign=3D"bottom" align=3D"left" style=3D"vertical=
+-align: left; padding:4px 6px 4px 6px;"> <a href=3D"https://www.amazon.in/g=
+p/r.html?C=3D2TE5D996SRIC9&K=3DA1XJ3CEMJD09ZD&R=3D1RJYLE1Q16FIZ&T=3DC&U=3Dh=
+ttps%3A%2F%2Fwww.amazon.in%2Fgp%2Fproduct%2FB00LZP7UJI%2Fref%3Dpe_386221_12=
+5400471_pd_te_s_gr_im%2F277-8041944-2349445&A=3DMRVQGTN09IJLTUTHPFUC1ZWZW6M=
+A&H=3DHX115MAVM8EJPBF1YFUVJT0SUOWA&ref_=3Dpe_386221_125400471_pd_te_s_gr_im=
+"> <img src=3D"https://images-eu.ssl-images-amazon.com/images/I/41lw-D5OMeL=
+._AC_SL500_SS115_.jpg" width=3D"115" height=3D"115" class=3D"pr_image_115 p=
+r_image_desktop" alt=3D"(5 Pack) SATA III (SATA 3) cable black (40cm) with =
+Locking Latch straight to Right Angle 90 Degree | compatible up to S-ATA/60=
+0 | Serial ATA | 1,5GBs/3GBs/6GBs (backward compatible) | S-ATA Cable l Com=
+patible with Sata I and Sata II" border=3D"0" /> </a> </td>=20
+</tr>=20
+<tr align=3D"left" style=3D"padding:0; display:block; l=
+ine-height:16px">=20
+<td align=3D"left"> <span style=3D"font-family:Arial,S=
+ans-Serif; text-decoration:none; color:#888; font-size:13px; font: 13px Ari=
+al,Sans-Serif"> <a href=3D"https://www.amazon.in/gp/r.html?C=3D2TE5D996SRIC=
+9&K=3DA1XJ3CEMJD09ZD&R=3D1RJYLE1Q16FIZ&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.i=
+n%2Fgp%2Fproduct%2FB00LZP7UJI%2Fref%3Dpe_386221_125400471_pd_te_s_gr_ti%2F2=
+77-8041944-2349445&A=3DNY9ZE9WG743XU5UCAPGKKILFOL0A&H=3DWUSUE1GRN5R0VHPBFB6=
+EARYISNCA&ref_=3Dpe_386221_125400471_pd_te_s_gr_ti" style=3D"font-family:Ar=
+ial,Sans-Serif; text-decoration:none; color:#888; font-size:13px; font: 13p=
+x Arial,Sans-Serif"> SATA III cable black with Locking Latch...</a> </span>=
+</td>=20
+</tr>=20
+<tr align=3D"left" style=3D"padding:0; display:block; l=
+ine-height:16px" class=3D"pr_title">=20
+<td valign=3D"middle" align=3D"left"> <span style=3D"f=
+ont-family:Arial,Sans-Serif; text-decoration:none; color:#888; font-size:13=
+px; vertical-align:3px"> Rs. 169.00 </span> <span style=3D"vertical-align:0=
+px"></span> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+<td width=3D"30%" bgcolor=3D"#ffffff" align=3D"left" class=
+=3D"asin_3col" style=3D"font-family:Arial,Sans-Serif; padding:6px 16px 0 6p=
+x; vertical-align:top; font-size:13px; line-height:18px;">=20
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0"=
+border=3D"0" bgcolor=3D"#ffffff">=20
+<tbody>
+<tr>=20
+<td valign=3D"bottom" align=3D"left" style=3D"vertical=
+-align: left; padding:4px 6px 4px 6px;"> <a href=3D"https://www.amazon.in/g=
+p/r.html?C=3D2TE5D996SRIC9&K=3DA1XJ3CEMJD09ZD&R=3D1RJYLE1Q16FIZ&T=3DC&U=3Dh=
+ttps%3A%2F%2Fwww.amazon.in%2Fgp%2Fproduct%2FB00TY6A56U%2Fref%3Dpe_386221_12=
+5400471_pd_te_s_gr_im%2F277-8041944-2349445&A=3DMD1V8KHLVARA0OS3TW66ZH6JC90=
+A&H=3DGBAEA8BKJUV9ZHN3SAXDIVSJAUWA&ref_=3Dpe_386221_125400471_pd_te_s_gr_im=
+"> <img src=3D"https://images-eu.ssl-images-amazon.com/images/I/41Vkj6Q5vtL=
+._AC_SL500_SS115_.jpg" width=3D"115" height=3D"115" class=3D"pr_image_115 p=
+r_image_desktop" alt=3D"8GB DDR4 Kingston HyperX Fury Black Series 2133 MHz=
+DDR4 CL14 288 Pin-DIMM Memory - HX421C14FB/8" border=3D"0" /> </a> </td>=
+=20
+</tr>=20
+<tr align=3D"left" style=3D"padding:0; display:block; l=
+ine-height:16px">=20
+<td align=3D"left"> <span style=3D"font-family:Arial,S=
+ans-Serif; text-decoration:none; color:#888; font-size:13px; font: 13px Ari=
+al,Sans-Serif"> <a href=3D"https://www.amazon.in/gp/r.html?C=3D2TE5D996SRIC=
+9&K=3DA1XJ3CEMJD09ZD&R=3D1RJYLE1Q16FIZ&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.i=
+n%2Fgp%2Fproduct%2FB00TY6A56U%2Fref%3Dpe_386221_125400471_pd_te_s_gr_ti%2F2=
+77-8041944-2349445&A=3D1EEUOXOPFYQJHAELQUPKTALBDPIA&H=3DD7LV9TYAUOHADEEX3KF=
+2XTG1KWEA&ref_=3Dpe_386221_125400471_pd_te_s_gr_ti" style=3D"font-family:Ar=
+ial,Sans-Serif; text-decoration:none; color:#888; font-size:13px; font: 13p=
+x Arial,Sans-Serif">8GB DDR4 Kingston HyperX Fury Black Series 2133...</a> =
+</span> </td>=20
+</tr>=20
+<tr align=3D"left" style=3D"padding:0; display:block; l=
+ine-height:16px" class=3D"pr_title">=20
+<td valign=3D"middle" align=3D"left"> <span style=3D"f=
+ont-family:Arial,Sans-Serif; text-decoration:none; color:#888; font-size:13=
+px; vertical-align:3px"> Rs. 3,095.00 </span> <span style=3D"vertical-align=
+:0px"></span> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table> </td>
+</tr>
+</tbody>
+</table></td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+<tr>=20
+<td colspan=3D"2" style=3D"font-size:10px; color:#666; padding:0 20px =
+20px 20px; line-height:16px;width:640px;"> <p>This email was sent from a no=
+tification-only address that cannot accept incoming email. Please do not re=
+ply to this message.</p> </td>=20
+</tr>=20
+</tbody>
+</table> =20
+<img width=3D"1" height=3D"1" src=3D"https://www.amazon.in/gp/r.html?C=3D2=
+TE5D996SRIC9&K=3DA1XJ3CEMJD09ZD&R=3D1RJYLE1Q16FIZ&T=3DE&U=3Dhttps%3A%2F%2Fi=
+mages-eu.ssl-images-amazon.com%2Fimages%2FG%2F01%2Fnav%2Ftransp.gif&A=3DTID=
+E8FX8QZBXCQV9RJLJJM08CV8A&H=3DCLBQOIWV9WIGVSHYMJILQE5R7L8A&ref_=3Dpe_386221=
+_125400471_open" /></body>
+</html>
+------=_Part_194428_403007531.1458907389069--
